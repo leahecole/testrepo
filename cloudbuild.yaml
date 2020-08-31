@@ -1,0 +1,3 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['composer', 'environments', 'update', 'example-environment', '--update-pypi-packages-from-file', 'requirements-composer.txt', '--location', 'us-central1']
