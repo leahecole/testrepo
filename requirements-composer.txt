@@ -1,1 +1,1 @@
-apache-airflow-backport-providers-google==5.20rc1
+apache-airflow-backport-providers-google==2020.6.24
