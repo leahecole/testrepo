@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="231.878" timestamp="2022-05-18T14:46:48.556677" hostname="coleleah-macbookpro2.roam.internal"><testcase classname="composer.2022_airflow_summit.data_analytics_process_test" name="test_process" time="227.706" /></testsuite></testsuites>

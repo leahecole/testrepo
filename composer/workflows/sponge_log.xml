@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="4.148" timestamp="2022-04-28T15:57:40.756359" hostname="coleleah-macbookpro2.roam.internal"><testcase classname="composer.workflows.summit_dag_test" name="test_dag_import" time="2.840"><failure message="KeyError: 'Variable gcp_project does not exist'">Traceback (most recent call last):
+  File "/Users/coleleah/workspace/gcp/python-docs-samples/composer/workflows/summit_dag_test.py", line 42, in test_dag_import
+    from . import summit_dag as module
+  File "/Users/coleleah/workspace/gcp/python-docs-samples/composer/workflows/summit_dag.py", line 81, in &lt;module&gt;
+    'project_id': models.Variable.get("gcp_project"), #TODO(coleleah) change from jinja templating
+  File "/Users/coleleah/workspace/gcp/python-docs-samples/composer/workflows/.nox/py-3-8/lib/python3.8/site-packages/airflow/models/variable.py", line 140, in get
+    raise KeyError(f'Variable {key} does not exist')
+KeyError: 'Variable gcp_project does not exist'</failure></testcase></testsuite></testsuites>
