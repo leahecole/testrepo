@@ -1,7 +1,7 @@
 # This file is from https://raw.githubusercontent.com/apache/airflow/constraints-2.1.2/constraints-3.8.txt
 # Editable install with no version control (apache-airflow==2.1.2)
 APScheduler==3.6.3
-Authlib==0.15.4
+Authlib==0.15.5
 Babel==2.9.1
 Deprecated==1.2.12
 Flask-AppBuilder==3.3.1
